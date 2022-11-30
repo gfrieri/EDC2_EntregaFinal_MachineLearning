@@ -40,7 +40,6 @@ datos_pred = float(np.loadtxt('prediccion.txt'))
 resultado = modelo.predict([datos_pred])
 resultado = np.array(resultado, dtype=float)
 
-np.savetxt('prediccion.txt', [datos_pred])
 np.savetxt('resultado.txt', resultado)
 
 os.remove('dentrada.txt')
