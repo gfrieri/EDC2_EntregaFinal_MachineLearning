@@ -1,5 +1,6 @@
 Crear una carpeta en C:, en este caso se llama DockerFinal
 Contenido de la carpeta: Dockerfile, Contenedor1.py y Contenedor2.py
+El archivo Dockerfile fue creado en vscode (ver el adjunto)
 
 En PowerShell
 
