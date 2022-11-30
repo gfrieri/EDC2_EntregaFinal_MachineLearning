@@ -47,5 +47,6 @@ plt.plot(historial.history["loss"])
 #Predicción con un valor de entrada arbitrario
 #Ejemplo, 2000mt^2
 datos_pred=(2000)
+#datos_pred = float(input('Ingrese el tamaño del inmueble en metros cuadrados: '))
 resultado = modelo.predict([datos_pred])
 print("El arriendo de un inmueble de", datos_pred, "metros cuadrados es aproximadamente: " + str(resultado[0,0]) + " rupias")
