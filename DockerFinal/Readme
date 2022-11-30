@@ -1,11 +1,21 @@
-Crear image:
-docker build -t pf C:\DockerFinal
+Crear una carpeta en C:, en este caso se llama DockerFinal
+Contenido de la carpeta: Dockerfile, Contenedor1.py y Contenedor2.py
 
-Hacer en dos ventanas de PowerShell:
-docker run -v C:\DockerFinal:/app -it pf bash
-ls
+En PowerShell
 
-Hacer en el siguiente orden:
-Ventana 1: python Contenedor1.py
-Ventana 2: python Contenedor2.py
-Ventana 1: python Contenedor1.py
+-Crear image:
+  docker build -t pf C:\DockerFinal
+
+-Abrir dos ventanas de PowerShell y en ambas ejecutar:
+  docker run -v C:\DockerFinal:/app -it pf bash
+  ls
+
+  Ejecutar en el siguiente orden:
+  1. Lugar: Ventana 1
+     Comando: python Contenedor1.py
+     
+  2. Lugar: Ventana 2
+     Comando: python Contenedor2.py
+     
+  3. Lugar: Ventana 1
+     Comando: python Contenedor1.py
