@@ -1,0 +1,11 @@
+Crear image:
+docker build -t pf C:\DockerFinal
+
+Hacer en dos ventanas de PowerShell:
+docker run -v C:\DockerFinal:/app -it pf bash
+ls
+
+Hacer en el siguiente orden:
+Ventana 1: python Contenedor1.py
+Ventana 2: python Contenedor2.py
+Ventana 1: python Contenedor1.py
