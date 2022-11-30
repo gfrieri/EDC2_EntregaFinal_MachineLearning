@@ -16,6 +16,7 @@ En PowerShell
      
   2. Lugar: Ventana 2
      Comando: python Contenedor2.py
+     Luego de un tiempo ingresar el dato solicitado
      
   3. Lugar: Ventana 1
      Comando: python Contenedor1.py
