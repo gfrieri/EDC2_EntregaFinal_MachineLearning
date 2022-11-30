@@ -22,6 +22,8 @@ else:
 
     dentrada = np.array(dentrada, dtype=float)
     dsalida = np.array(dsalida, dtype=float)
-
+    
+    datos_pred = float(input('Ingrese el tamaño del inmueble en metros cuadrados: '))
     np.savetxt('dentrada.txt', dentrada)
     np.savetxt('dsalida.txt', dsalida)
+    np.savetxt('prediccion.txt', [datos_pred])
