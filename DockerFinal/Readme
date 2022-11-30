@@ -1,6 +1,13 @@
+Dockerfile (ver el adjunto):
+FROM para el lenguaje y su versión
+WORKDIR para el directorio /app
+RUN para iniciar el pip3 install de las librerias externas necesarias
+COPY para copiar ambos scripts en la image
+
+En el explorador de archivos
+
 Crear una carpeta en C:, en este caso se llama DockerFinal
 Contenido de la carpeta: Dockerfile, Contenedor1.py y Contenedor2.py
-El archivo Dockerfile fue creado en vscode (ver el adjunto)
 
 En PowerShell
 
