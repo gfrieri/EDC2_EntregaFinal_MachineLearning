@@ -36,7 +36,7 @@ plt.plot(historial.history["loss"])
 
 #Predicción con un valor de entrada arbitrario
 #Ejemplo, 2000mt^2
-datos_pred = np.loadtxt('prediccion.txt')
+datos_pred = float(np.loadtxt('prediccion.txt'))
 resultado = modelo.predict([datos_pred])
 resultado = np.array(resultado, dtype=float)
 
