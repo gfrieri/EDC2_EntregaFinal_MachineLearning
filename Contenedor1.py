@@ -1,3 +1,6 @@
+#Por: Jesús Durán y Giuliano Frieri
+#Estructura del Computador 2
+#Noviembre 2022
 import numpy as np
 import pandas as pd
 import os
